@@ -13,11 +13,11 @@ Date: 2019-07-11
 score = float(input('请输入成绩:'))
 if score >= 90:
     grade = 'A'
-elif score >= 80 and score < 89:
+elif score >= 80:
     grade = 'B'
-elif score >= 70 and score < 79:
+elif score >= 70:
     grade = 'C'
-elif score >= 60 and score < 69:
+elif score >= 60:
     grade = 'D'
 else:
     grade = 'E'
